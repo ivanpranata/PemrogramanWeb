@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat_Form_Pendaftaran</title>
+</head>
+<body>
+
+    <P>
+        Nama : <input type="text" name="Username" required> 
+        <br>
+    
+        Email : <input type="text" name="email" required>
+        <br>
+    
+        Jenis kelamin :    
+        <label>
+            <input type="radio" name="gender" value="Male"> Laki-laki
+        </label>
+        <label>
+            <input type="radio" name="gender" value="Female"> Perempuan
+        </label>
+        <br>
+
+        Hobi :
+        <label>
+            <input type="checkbox" name="hobi" value="Musik"> Musik
+        </label>
+        <label>
+            <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+        </label>
+        <br>
+
+        Pilih kota : 
+        <select name="kota">
+            <option value="1">Jakarta</option>
+            <option value="2">Bekasi</option>
+            <option value="3">Karawang</option>
+        </select>
+    
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="file">Upload foto:</label>
+            <input type="file" id="file" name="file">
+        </form>
+        <button type="submit">Daftar</button>
+
+    </P>
+
+
+    
+</body>
+</html>
