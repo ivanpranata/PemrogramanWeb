@@ -3,12 +3,14 @@
  <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Formulir pendaftaran</title>
+     <title> Latihan nilai</title> 
      <link rel="stylesheet" href="style.css">
  </head>
 
+
  <body>
-     <div class="header">Selamat datang di web sederhana</div>
+     <body>
+     <div class="header">Latihan Nilai Pertemuan Form P11</div>
      <div class="container">
      <div class="form-container">
              <h1>cek nilai</h1>
@@ -50,10 +52,7 @@
  
      <script src="Script.js"></script>
          </div>
-          <div class="sidebar">
-             <h3>Sidebar</h3>
-             <p>bagian sidebar dapat berisi tautan, iklan, atau informasi tambahan.</p>
-         </div>
+        
      </div>
  </body>
  </html>
