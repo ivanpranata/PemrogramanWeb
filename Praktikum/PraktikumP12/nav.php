@@ -29,6 +29,15 @@
                      <li class="nav-item">
                        <a class="nav-link" href="index_pelanggan.php">Daftar Pelanggan</a>
                    </li>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="logout.php">Logout</a>
+                     </li>
+            
+
+
+
+
                </ul>
            </div>
        </div>
